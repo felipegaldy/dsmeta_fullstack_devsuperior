@@ -77,7 +77,7 @@ export default function SalesCard() {
                     <td>
                       <div className="dsmeta-red-btn-container">
                         <div className="dsmeta-red-btn">
-                          <NotifficationButton />
+                          <NotifficationButton saleId={sale.id} />
                         </div>
                       </div>
                     </td>
